@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+**Project Goal and Group**
 
-You can use the [editor on GitHub](https://github.com/aslanshi/DSO560-Project-Group-White/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repo is a collection of codes our group wrote for Text Classification Project of DSO560 class. Our client is Thread Together, an Australian non-profit organization. (https://www.threadtogether.org)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Professor: Yu Chen
 
-### Markdown
+Group White:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Jiayue (Daniel) Chen ()
+- Xinyi (Alex) Guo ()
+- Yuyao Shen ()
+- Nanchun (Aslan) Shi (nanchuns@usc.edu)
+- Bingru Xue ()
 
-```markdown
-Syntax highlighted code block
+**Project Overview**
 
-# Header 1
-## Header 2
-### Header 3
+Thread Together has huge inventory of women clothing. Each product possesses several attributes such as occasion, color, etc. Within each attribute group, each product possesses single or multiple values, such as "cold wheather" for occasion or "black" for color. While only a proportion of products in the current inventory of Thread Together, our client is longing for predictive models such that when given some information about a product (e.g. description, brand, etc.), the models are able to predict the attribute value(s). This will reduce labor cost and increase efficiency. 
 
-- Bulleted
-- List
+We are required to pick 5 attributes groups, and build models for each of them. As results, when we input product information, the models will output predicted values for each of the attribute. 
 
-1. Numbered
-2. List
+The 5 attributes we chose are:
 
-**Bold** and _Italic_ and `Code` text
+- Occasion (as required)
+- Style (as required)
+- 
+-
+-
 
-[Link](url) and ![Image](src)
-```
+We were provided a subset of all inventory data, and also a tagged list of products made by domain experts. With these data, we are able to train the models and make prediction. In the repo one could find codes from each of our group member, as each of us is responsible for one attribute. There is/will also a aggregation of all codes so that our client could use directly. There will not be a summary report as we are not required to, but there is/will be a brief summary of the architectures for each model and logic process.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aslanshi/DSO560-Project-Group-White/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you have any questions or further interests, you could contact us.
