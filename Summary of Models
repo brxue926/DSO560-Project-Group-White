@@ -1,0 +1,15 @@
+**STYLE**
+
+Nanchun (Aslan) Shi
+
+There are initialy 18469 records with style tags. However, most of them are duplicates in the sense that one distinct product (**product_id + product_color_id**) has multiple labels. For example, one product could be both casual, classic, and business casual. I don't want to treat them seperately when training the model, since this will confused the model. Instead, I aggregate the labels together after one-hot-encoding. This means, for those products with multi-labels, the one-hot-encoding will show 1 in multiple entries. Then I could drop the duplicates. 5418 products left. 
+
+The text fields in the data includes: brand, product_full_name, description, brand_category, and details.
+
+For description and details, the texts are more like netural languages. Therefore, I take sementic meaning into consideration. Specifically, I built nerual networks with embedding layer. For the other text fields, they are more or less some seperate tokens. So in order to save computation burden, I convert them into TF-IDF vectors and build another neural network without embedding.
+
+Each of the model is predicting the true labels. Given the characteristics of the data, it would be more resonable to treat each nodes in the output layer seperatly using Sigmoid activation function. This will not restrict the possibility where one product could have multiple labels. 
+
+Finally, I will combine the predictions from two models and do a weighted average. I could then choose to predict only one outcome for all products or two, or more. To calculate the accuracy, I will look at if the predicted results intersect with the true labels or not. If outputing one, the test accuracy is 89%. If outputing two, the test accuracy is 96%. 
+
+-end-
