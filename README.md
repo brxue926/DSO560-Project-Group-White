@@ -8,7 +8,7 @@ Group White:
 
 - Jiayue (Daniel) Chen ()
 - Xinyi (Alex) Guo ()
-- Yuyao Shen ()
+- Yuyao Shen (yuyaoshe@usc.edu)
 - Nanchun (Aslan) Shi (nanchuns@usc.edu)
 - Bingru Xue (bingruxu@usc.edu)
 
