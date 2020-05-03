@@ -10,11 +10,11 @@ Group White:
 - Xinyi (Alex) Guo ()
 - Yuyao Shen ()
 - Nanchun (Aslan) Shi (nanchuns@usc.edu)
-- Bingru Xue ()
+- Bingru Xue (bingruxu@usc.edu)
 
 **Project Overview**
 
-Thread Together has huge inventory of women clothing. Each product possesses several attributes such as occasion, color, etc. Within each attribute group, each product possesses single or multiple values, such as "cold wheather" for occasion or "black" for color. While only a proportion of products in the current inventory of Thread Together are tagged with these values, our client is looking for predictive models such that when given some information about a product (e.g. description, brand, etc.), the models are able to predict the attribute value(s). This will reduce labor cost and increase efficiency. 
+Thread Together has huge inventory of women clothing. Each product possesses several attributes such as occasion, color, etc. Within each attribute group, each product possesses single or multiple values, such as "workout" for occasion or "black" for color. While only a proportion of products in the current inventory of Thread Together are tagged with these values, our client is looking for predictive models such that when given some information about a product (e.g. description, brand, etc.), the models are able to predict the attribute value(s). This will reduce labor cost and increase efficiency. 
 
 We are required to pick 5 attributes groups, and build models for each of them. As results, when we input product information, the models will output predicted values for each of the attribute. 
 
