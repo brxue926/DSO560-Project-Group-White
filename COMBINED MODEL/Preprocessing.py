@@ -238,7 +238,7 @@ class tfidf_preprocessing():
         
         df.fillna('NOINFO',inplace=True)
     
-        cols = [df.brand, df.p_full_name, df.brand_category, df.brand_canonical_url]
+        cols = [df.brand, df.product_full_name, df.brand_category, df.brand_canonical_url]
         cleaned_cols = []
 
         for col in cols:
