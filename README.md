@@ -6,7 +6,7 @@ Professor: Yu Chen
 
 Group White:
 
-- Jiayue (Daniel) Chen ()
+- Jiayue (Daniel) Chen (jiayuech@usc.edu)
 - Xinyi (Alex) Guo ()
 - Yuyao Shen (yuyaoshe@usc.edu)
 - Nanchun (Aslan) Shi (nanchuns@usc.edu)
