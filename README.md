@@ -26,6 +26,6 @@ The 5 attributes we chose are:
 - Prints/Pattern
 - Fit
 
-We were provided a subset of all inventory data, and also a tagged list of products made by domain experts. With these data, we are able to train the models and make prediction. In the repo one could find codes from each of our group member, as each of us is responsible for one attribute. There is/will also a aggregation of all codes so that our client could use directly. There will not be a summary report as we are not required to, but there is/will be a brief summary of the architectures for each model and logic process.
+We were provided a subset of all inventory data, and also a tagged list of products made by domain experts. With these data, we are able to train the models and make prediction. In the repo one could find codes from each of our group member, as each of us is responsible for one attribute. There is also a aggregation of all codes (in COMBINED MODEL folder) so that our client could use directly. There will not be a summary report as we are not required to, but there is a brief summary of the architectures for each model and logic process.
 
 If you have any questions or further interests, you could contact us.
