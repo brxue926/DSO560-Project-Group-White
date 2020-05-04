@@ -1,2 +1,6 @@
-Instruction:
+Instruction for FINAL MODEL usage:
 
+The input should be a Comma-separated values (csv) file, where each row represent a product and columns must include 'product_id','brand','product_full_name','brand_category','brand_canonical_url','description','details'. Column names should match the forms (spelling, underscore, and lowercase) above. Null values are allowed since some information is likely to be missing.
+
+In each of the 5 section, the codes work for predicting one of the 5 attributes: style, fit, occasion, patterns, and category.
+At the end, all predictions will be combined together and output the original dataframe appended with 5 prediction columns.
